@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "brassens": {
+      "type": "http",
+      "url": "https://mcp.brassens.app/mcp"
+    }
+  }
+}

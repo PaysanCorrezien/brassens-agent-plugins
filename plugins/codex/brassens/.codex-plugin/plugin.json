@@ -1,0 +1,24 @@
+{
+  "name": "brassens",
+  "version": "1.0.0",
+  "description": "Search and read your Brassens transcriptions, meetings (with notes and speakers) and media imports through the Brassens MCP connector. Read-only.",
+  "author": { "name": "Brassens", "url": "https://brassens.app" },
+  "homepage": "https://brassens.app",
+  "license": "UNLICENSED",
+  "keywords": ["brassens", "transcription", "meetings", "mcp"],
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Brassens",
+    "shortDescription": "Search your Brassens history",
+    "longDescription": "Read-only access to your Brassens dictations, meetings (notes, speakers, segments) and media imports. Requires an active paid Brassens Pro subscription (trials are not included) and cloud data retention turned on.",
+    "developerName": "Brassens",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "websiteURL": "https://brassens.app",
+    "defaultPrompt": [
+      "What did we decide in last week's planning meeting?",
+      "Find my dictations about the Q3 roadmap"
+    ]
+  }
+}

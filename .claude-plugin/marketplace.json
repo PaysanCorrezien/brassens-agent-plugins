@@ -1,0 +1,18 @@
+{
+  "name": "brassens",
+  "owner": {
+    "name": "Brassens",
+    "url": "https://brassens.app"
+  },
+  "metadata": {
+    "description": "Official Brassens plugins for agent access to your transcription history."
+  },
+  "plugins": [
+    {
+      "name": "brassens",
+      "source": "./plugins/claude-code/brassens",
+      "version": "1.0.0",
+      "description": "Read-only access to your Brassens transcriptions, meetings and media imports."
+    }
+  ]
+}

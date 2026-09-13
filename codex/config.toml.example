@@ -1,0 +1,13 @@
+# Brassens MCP connector for Codex (fallback when not using the plugin).
+# Copy into ~/.codex/config.toml, then authenticate with OAuth:
+#
+#   codex mcp login brassens
+#
+# Codex discovers the WorkOS AuthKit authorization server from
+# https://mcp.brassens.app/.well-known/oauth-protected-resource/mcp.
+# oauth_resource is required: the server only accepts tokens whose audience
+# is the MCP URL (RFC 8707). No client id or secret is needed here.
+
+[mcp_servers.brassens]
+url = "https://mcp.brassens.app/mcp"
+oauth_resource = "https://mcp.brassens.app/mcp"

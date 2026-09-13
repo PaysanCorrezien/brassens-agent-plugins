@@ -1,0 +1,9 @@
+{
+  "name": "brassens",
+  "version": "1.0.0",
+  "description": "Search and read your Brassens transcriptions, meetings (with notes and speakers) and media imports through the Brassens MCP connector. Read-only.",
+  "author": { "name": "Brassens", "url": "https://brassens.app" },
+  "homepage": "https://brassens.app",
+  "license": "UNLICENSED",
+  "keywords": ["brassens", "transcription", "meetings", "mcp"]
+}

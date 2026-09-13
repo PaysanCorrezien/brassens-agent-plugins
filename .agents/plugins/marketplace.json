@@ -1,0 +1,20 @@
+{
+  "name": "brassens",
+  "interface": {
+    "displayName": "Brassens"
+  },
+  "plugins": [
+    {
+      "name": "brassens",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex/brassens"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
