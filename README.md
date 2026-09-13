@@ -4,7 +4,7 @@ Official plugins that connect Claude Code and Codex to your
 [Brassens](https://brassens.app) history (dictations, meetings, media imports)
 through the Brassens remote MCP server at `https://mcp.brassens.app/mcp`. Read-only.
 
-Current version: **1.0.0** (see [CHANGELOG.md](CHANGELOG.md)).
+Current version: **1.0.1** (see [CHANGELOG.md](CHANGELOG.md)).
 
 > This repository is generated from the Brassens monorepo on each release.
 > Do not open pull requests here; changes are overwritten by the next release.

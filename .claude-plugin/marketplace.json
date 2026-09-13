@@ -11,7 +11,7 @@
     {
       "name": "brassens",
       "source": "./plugins/claude-code/brassens",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Read-only access to your Brassens transcriptions, meetings and media imports."
     }
   ]

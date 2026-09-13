@@ -2,9 +2,14 @@
 
 All notable changes to the Brassens agent plugins (Claude Code and Codex) are
 recorded here. Versions follow [Semantic Versioning](https://semver.org). One
-version is shared by both plugin manifests and both marketplace entries; the
-validator enforces it, and a release is cut by pushing the tag
-`agent-plugins-v<version>` (see `docs/publishing.md`).
+version is shared by both plugin manifests and both marketplace entries.
+
+## [1.0.1] - 2026-09-13
+
+### Changed
+
+- Changelog intro no longer refers to release tooling that is not part of this
+  repository. No plugin, connector or skill changes.
 
 ## [1.0.0] - 2026-09-13
 
